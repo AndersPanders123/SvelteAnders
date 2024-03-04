@@ -1,5 +1,3 @@
-<!-- MyComponent.svelte -->
-
 <script>
   let counter = 0;
 
@@ -8,6 +6,7 @@
   };
 
   const decreaseCounter = () => {
+    if (counter == 0) return;
     counter -= 10;
   };
 </script>
@@ -21,7 +20,7 @@
   </div>
 </div>
 
-<p>Tempratur: {counter}*C</p>
+<p>Temperatur: {counter}*C</p>
 
 <style>
   /* Your styles for the component go here */
