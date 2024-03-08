@@ -74,7 +74,6 @@
     width: 55px;
   }
   .button:hover {
-    border: black 1px solid;
     color: black;
   }
 
